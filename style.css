@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2EAE2;
+}
+img{
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/*  display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;*/
+
+.card{
+    width: 600px;
+    height: 450px;
+    display: flex;
+
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    
+    
+}
+
+h1{
+    font-family: "Fraunces", serif;
+    color: #1C232B;
+    font-size: 2.5rem;
+    margin: 0 1.8rem;
+    text-shadow: black .5px 2px 3px;
+}
+
+.perfum{
+    font-weight: 700;
+    
+    
+}
+
+h2,p{
+    font-family: "Montserrat", sans-serif;
+}
+
+p.para{
+    margin: 0 2rem;
+    color: #6C7289;
+    line-height: 1.5rem;
+}
+
+button{
+    width: 236px;
+    height: 48px;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+    margin-bottom: 5rem;
+}
+
+button:hover{
+    background-color: #1A4032;
+    cursor: pointer;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content:left;
+}
+
+#precoMaior{
+    font-family: "Fraunces", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3D8168;
+}
+
+#precoHachurado{
+    text-decoration: line-through;
+    color: #6C7289;
+}
+
